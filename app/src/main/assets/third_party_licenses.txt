@@ -1,0 +1,23 @@
+mpv Android library v0.1.12-lgpl-9
+The Android bindings and build scripts are licensed under the MIT License.
+Source: https://github.com/flow-vid/flowvid-libmpv-android/tree/library
+Release source and pinned build inputs: https://github.com/flow-vid/flowvid-libmpv-android/releases/tag/v0.1.12-lgpl-9
+SHA-256 of the AAR: b3bc7cb546d480c9d5aac431069b2e8ddec4a6f95724ee4895fc6cad1ec94658
+
+The AAR includes these third-party components:
+- mpv (libmpv): GNU Lesser General Public License v2.1 or later
+- FFmpeg: GNU Lesser General Public License v3
+- libplacebo: GNU Lesser General Public License v2.1 or later
+- FriBidi: GNU Lesser General Public License v2.1 or later
+- libass: ISC License
+- dav1d: BSD 2-Clause License
+- HarfBuzz: MIT License
+- libxml2: MIT License
+- Lua 5.2: MIT License
+- libunibreak: zlib License
+- FreeType: FreeType License
+- Mbed TLS: Apache License 2.0
+
+The bundled libmpv is built with GPL components disabled. FFmpeg is built with GPL components
+disabled and version 3 enabled. The complete license texts and corresponding source are available
+in the linked source repository and its pinned upstream revisions.
